@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSC</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter 폰트 설정 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
+
+    <!-- 중앙 안내 카드 (Container) -->
+    <div class="w-full max-w-lg p-8 space-y-6 bg-white border border-gray-200 rounded-xl shadow-lg transform transition duration-500 hover:shadow-xl hover:scale-[1.01]">
+
+        <!-- 제목 -->
+        <h1 class="text-2xl font-bold text-gray-800 text-center border-b pb-4">
+            사이트 이전 안내
+        </h1>
+
+        <!-- 안내 텍스트 영역 -->
+        <div class="text-center space-y-4 pt-2">
+            <p class="text-md text-gray-600" style="word-break: keep-all;">
+                안녕하세요.
+				<br>Financial&nbsp;Sales&nbsp;Campus가 Aim&nbsp;High로&nbsp;변경되었습니다.
+            </p>
+            <p class="text-md text-gray-500 font-semibold" style="word-break: keep-all;">
+                아래 버튼을 누르시면 에임하이&nbsp;웹사이트로&nbsp;이동합니다.
+            </p>
+        </div>
+
+        <!-- 버튼 -->
+        <div class="pt-4">
+            <a href="https://aim-high.biz/" style="font-size:16px;" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-md text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out">
+                Aim-High
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+</html>
